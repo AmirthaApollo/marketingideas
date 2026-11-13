@@ -91,6 +91,14 @@ img {
   margin: 0 0 clamp(1.5rem, 3vw, 2.5rem);
 }
 
+.draft-note {
+  margin: clamp(1.25rem, 3vw, 2rem) 0 0;
+  max-width: 46ch;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .display {
   font-family: var(--display);
   font-weight: 300;
